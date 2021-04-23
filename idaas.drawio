@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T07:51:42.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="6NZP8FAzap4QPSJsUM0q" version="14.6.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-23T07:53:35.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="zVCrSVS3MI8gzvGZywWk" version="14.6.1" type="github" pages="9">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="数据库表设计">
     <mxGraphModel dx="2276" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1433,22 +1433,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xsTlN8vK5fOIQQEI8f4t-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="lsKvJJsyUpAc08FKEq6_-1" vertex="1">
-          <mxGeometry x="265" y="200" width="10" height="40" as="geometry" />
+          <mxGeometry x="265" y="190" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="xsTlN8vK5fOIQQEI8f4t-33" value="录入第三方登录类型" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="lsKvJJsyUpAc08FKEq6_-1" target="xsTlN8vK5fOIQQEI8f4t-32" edge="1">
+        <mxCell id="xsTlN8vK5fOIQQEI8f4t-33" value="录入第三方登录类型" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="lsKvJJsyUpAc08FKEq6_-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="180" as="sourcePoint" />
+            <mxPoint x="270" y="172" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="295" y="180" />
+              <mxPoint x="295" y="172" />
             </Array>
+            <mxPoint x="275" y="192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xsTlN8vK5fOIQQEI8f4t-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="lsKvJJsyUpAc08FKEq6_-1" vertex="1">
-          <mxGeometry x="425" y="260" width="10" height="80" as="geometry" />
+          <mxGeometry x="425" y="280" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xsTlN8vK5fOIQQEI8f4t-35" value="第三方账号（OAuth2.0）授权" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="lsKvJJsyUpAc08FKEq6_-1" target="xsTlN8vK5fOIQQEI8f4t-34" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="260" as="sourcePoint" />
+            <mxPoint x="90" y="280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xsTlN8vK5fOIQQEI8f4t-36" value="返回code和state" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="lsKvJJsyUpAc08FKEq6_-1" source="xsTlN8vK5fOIQQEI8f4t-34" edge="1">
@@ -1555,6 +1556,19 @@
         <mxCell id="oApWosVRHQvirZ3N6iaE-12" value="返回绑定结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontColor=#FF0000;" edge="1" parent="lsKvJJsyUpAc08FKEq6_-1" source="oApWosVRHQvirZ3N6iaE-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oApWosVRHQvirZ3N6iaE-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF0000;strokeColor=#FF0000;" vertex="1" parent="lsKvJJsyUpAc08FKEq6_-1">
+          <mxGeometry x="265" y="220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oApWosVRHQvirZ3N6iaE-14" value="请求第三方登录授权信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontColor=#FF0000;" edge="1" parent="lsKvJJsyUpAc08FKEq6_-1" target="oApWosVRHQvirZ3N6iaE-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oApWosVRHQvirZ3N6iaE-15" value="返回授权信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontColor=#FF0000;" edge="1" parent="lsKvJJsyUpAc08FKEq6_-1" source="oApWosVRHQvirZ3N6iaE-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
