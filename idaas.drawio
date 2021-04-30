@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-30T03:23:25.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="fc1pma1XCY32a8ZTtL3Z" version="14.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-30T08:09:15.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="GSk6Qh4xcr-AhvCnFTVm" version="14.6.1" type="github" pages="10">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="数据库表设计">
     <mxGraphModel dx="2276" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -2303,7 +2303,7 @@
         <mxCell id="FjGoVnK9UlIdVTYklYEB-497" value="erp    varchar(50)   京东erp" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;direction=west;" parent="FjGoVnK9UlIdVTYklYEB-495" vertex="1">
           <mxGeometry x="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E4iWZBLVJLFRaSQi4cBy-160" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="FjGoVnK9UlIdVTYklYEB-290" vertex="1">
+        <mxCell id="E4iWZBLVJLFRaSQi4cBy-160" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;direction=south;" parent="FjGoVnK9UlIdVTYklYEB-290" vertex="1">
           <mxGeometry y="240" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E4iWZBLVJLFRaSQi4cBy-161" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="E4iWZBLVJLFRaSQi4cBy-160" vertex="1">
