@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T08:14:06.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="hO5mmXoI6vHC95nkd0xQ" version="14.6.12" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-09T08:18:28.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Huv5AEAYMFgQm4ypoqVp" version="14.6.12" type="github" pages="10">
   <diagram name="新账号模型" id="GAu028_C6I_Uu3KQakIe">
     <mxGraphModel dx="2253" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3YyG82Lg_kokqVduegiq-0" />
         <mxCell id="3YyG82Lg_kokqVduegiq-1" parent="3YyG82Lg_kokqVduegiq-0" />
-        <mxCell id="3YyG82Lg_kokqVduegiq-3" value="account(z账户基础信息表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="3YyG82Lg_kokqVduegiq-1">
+        <mxCell id="3YyG82Lg_kokqVduegiq-3" value="account(账户基础信息表)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="3YyG82Lg_kokqVduegiq-1">
           <mxGeometry x="190" y="530" width="260" height="490" as="geometry" />
         </mxCell>
         <mxCell id="3YyG82Lg_kokqVduegiq-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="3YyG82Lg_kokqVduegiq-3">
