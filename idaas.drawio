@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T08:18:28.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Huv5AEAYMFgQm4ypoqVp" version="14.6.12" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-09T09:27:16.572Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3Ss6D0UyiINEq6CorrPt" version="14.6.12" type="github" pages="10">
   <diagram name="新账号模型" id="GAu028_C6I_Uu3KQakIe">
     <mxGraphModel dx="2253" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
         <mxCell id="3YyG82Lg_kokqVduegiq-48" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="3YyG82Lg_kokqVduegiq-47">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3YyG82Lg_kokqVduegiq-49" value="exclusive_user  tinyint  0-专属用户  &#xa;1-零售云用户" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="3YyG82Lg_kokqVduegiq-47">
+        <mxCell id="3YyG82Lg_kokqVduegiq-49" value="retail_user  tinyint  0-专属用户  &#xa;1-零售云用户" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="3YyG82Lg_kokqVduegiq-47">
           <mxGeometry x="30" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YyG82Lg_kokqVduegiq-50" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3YyG82Lg_kokqVduegiq-37">
