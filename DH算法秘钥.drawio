@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-27T08:40:22.792Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="GO0JmT9RgWVnr9EH3Srd" version="14.7.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-27T11:18:14.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ai8p5hRKb5k2CJymNy0M" version="14.7.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="秘钥交换">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
         <mxCell id="4nAFIsNWsInhG6wNa1qs-18" value="得到Pb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="450" y="620" width="152" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4nAFIsNWsInhG6wNa1qs-24" value="交换Pa和Pb" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="4nAFIsNWsInhG6wNa1qs-24" value="交换Pa、Pb，以及秘钥标识M" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="590" as="sourcePoint" />
             <mxPoint x="510" y="590" as="targetPoint" />
@@ -118,7 +118,7 @@
             <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FTnDL2mLncCwiamXzSqU-15" value="发送CT和Pb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="FTnDL2mLncCwiamXzSqU-14">
+        <mxCell id="FTnDL2mLncCwiamXzSqU-15" value="发送CT和M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="FTnDL2mLncCwiamXzSqU-14">
           <mxGeometry x="-0.3492" relative="1" as="geometry">
             <mxPoint x="20" as="offset" />
           </mxGeometry>
@@ -129,7 +129,7 @@
         <mxCell id="FTnDL2mLncCwiamXzSqU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="O14wsWxgyS2iRA50LXnY-1" source="FTnDL2mLncCwiamXzSqU-16" target="FTnDL2mLncCwiamXzSqU-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTnDL2mLncCwiamXzSqU-16" value="秘钥服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="O14wsWxgyS2iRA50LXnY-1">
+        <mxCell id="FTnDL2mLncCwiamXzSqU-16" value="加解密服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="O14wsWxgyS2iRA50LXnY-1">
           <mxGeometry x="580" y="280" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTnDL2mLncCwiamXzSqU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="O14wsWxgyS2iRA50LXnY-1" source="FTnDL2mLncCwiamXzSqU-17">
@@ -142,7 +142,7 @@
             <mxPoint x="635" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FTnDL2mLncCwiamXzSqU-17" value="Pb校验和&lt;br style=&quot;font-size: 15px;&quot;&gt;CT解密" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="O14wsWxgyS2iRA50LXnY-1">
+        <mxCell id="FTnDL2mLncCwiamXzSqU-17" value="M校验和&lt;br style=&quot;font-size: 15px&quot;&gt;CT解密" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="O14wsWxgyS2iRA50LXnY-1">
           <mxGeometry x="572.5" y="380" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTnDL2mLncCwiamXzSqU-20" value="校验或解密失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="O14wsWxgyS2iRA50LXnY-1">
