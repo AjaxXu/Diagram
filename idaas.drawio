@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T07:40:30.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="YUnntA5nRS628cMzxS9k" version="15.1.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-10-14T07:59:03.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="n7fjdwuoYtT5M8citH4e" version="15.1.1" type="github" pages="10">
   <diagram name="新账号模型" id="GAu028_C6I_Uu3KQakIe">
     <mxGraphModel dx="2253" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2002,7 +2002,7 @@
             <mxPoint x="440" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsTlN8vK5fOIQQEI8f4t-2" value="JNOS IDaaS" style="rounded=0;whiteSpace=wrap;html=1;" parent="lsKvJJsyUpAc08FKEq6_-1" vertex="1">
+        <mxCell id="xsTlN8vK5fOIQQEI8f4t-2" value="JNOS账号管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="lsKvJJsyUpAc08FKEq6_-1" vertex="1">
           <mxGeometry x="220" y="80" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xsTlN8vK5fOIQQEI8f4t-3" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="lsKvJJsyUpAc08FKEq6_-1" target="xsTlN8vK5fOIQQEI8f4t-2" edge="1">
@@ -2067,12 +2067,14 @@
         <mxCell id="xsTlN8vK5fOIQQEI8f4t-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="lsKvJJsyUpAc08FKEq6_-1" vertex="1">
           <mxGeometry x="430" y="290" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xsTlN8vK5fOIQQEI8f4t-38" value="第三方账号登录、注册" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="lsKvJJsyUpAc08FKEq6_-1" target="xsTlN8vK5fOIQQEI8f4t-37" edge="1">
+        <mxCell id="xsTlN8vK5fOIQQEI8f4t-38" value="第三方账号登录、注册" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="lsKvJJsyUpAc08FKEq6_-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="435" y="270" as="sourcePoint" />
+            <mxPoint x="435" y="290" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="460" y="270" />
+              <mxPoint x="460" y="290" />
+              <mxPoint x="460" y="310" />
             </Array>
+            <mxPoint x="440" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xsTlN8vK5fOIQQEI8f4t-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="lsKvJJsyUpAc08FKEq6_-1" vertex="1">
@@ -2177,6 +2179,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AhPgBBgkiSbF6F1Z1OO--1" value="(微信没有这个过程）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lsKvJJsyUpAc08FKEq6_-1">
+          <mxGeometry x="430" y="480" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
