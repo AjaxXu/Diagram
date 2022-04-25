@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:10:04.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="FZZIG1B7Xdvg_WdhVICi" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:17:18.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="mP1ZoiRdFdLxyDG6uR6R" version="17.4.6" type="github">
   <diagram id="dwGGe7_HKTjkTB9sFeia" name="第 1 页">
     <mxGraphModel dx="1554" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,10 +25,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-5" value="SOA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="150" width="100" height="300" as="geometry" />
+          <mxGeometry x="440" y="150" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-20" value="source判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-5">
+          <mxGeometry x="22.5" y="174" width="55" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-6" value="全渠道" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="150" width="100" height="300" as="geometry" />
+          <mxGeometry x="630" y="150" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-7" value="全渠道打开门店页面（域名不一致，参数上携带登录态）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-6" target="Fln8TkFOrGTAWY18ObZh-4">
           <mxGeometry x="-0.0244" width="80" relative="1" as="geometry">
@@ -45,6 +48,18 @@
             <mxPoint x="225" y="330" as="sourcePoint" />
             <mxPoint x="285" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-19" value="token+source访问soa" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-20" target="Fln8TkFOrGTAWY18ObZh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-22" value="source是全渠道，&lt;br&gt;调用全渠道解析" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="526" y="318" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
