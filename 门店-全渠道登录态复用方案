@@ -1,17 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:17:18.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="mP1ZoiRdFdLxyDG6uR6R" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:27:34.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="UqyeiuqjAw0MEtVMXtaw" version="17.4.6" type="github">
   <diagram id="dwGGe7_HKTjkTB9sFeia" name="第 1 页">
     <mxGraphModel dx="1554" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Fln8TkFOrGTAWY18ObZh-11" value="拦截器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="150" width="118" height="300" as="geometry" />
+          <mxGeometry x="182" y="150" width="118" height="550" as="geometry" />
         </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-15" value="前端能否基于嵌入页面&lt;br&gt;携带来源标识？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-11">
           <mxGeometry x="-96" y="183" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-4" value="门店" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="150" width="110" height="300" as="geometry" />
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-34" value="通过？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-11">
+          <mxGeometry x="31.5" y="360" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-35" value="通过，进入后端" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="Fln8TkFOrGTAWY18ObZh-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="88" y="384" as="sourcePoint" />
+            <mxPoint x="231.5" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-4" value="门店前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="150" width="110" height="560" as="geometry" />
         </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-4">
           <mxGeometry x="48" y="134" width="10" height="40" as="geometry" />
@@ -24,42 +33,78 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-36" value="失败，跳登录态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="Fln8TkFOrGTAWY18ObZh-4" target="Fln8TkFOrGTAWY18ObZh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188" y="384" as="sourcePoint" />
+            <mxPoint x="108" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-5" value="SOA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="150" width="100" height="300" as="geometry" />
+          <mxGeometry x="522" y="150" width="100" height="540" as="geometry" />
         </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-20" value="source判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-5">
           <mxGeometry x="22.5" y="174" width="55" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-5">
+          <mxGeometry x="44" y="283" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-29" value="判断是否自动映射JNOS账号&lt;br&gt;1. 是则调用JNOS接口创建&lt;br&gt;2. 否则直接返回" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Fln8TkFOrGTAWY18ObZh-28" parent="Fln8TkFOrGTAWY18ObZh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="263" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-6" value="全渠道" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="150" width="100" height="300" as="geometry" />
+          <mxGeometry x="712" y="150" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-6">
+          <mxGeometry x="45" y="200" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fln8TkFOrGTAWY18ObZh-7" value="全渠道打开门店页面（域名不一致，参数上携带登录态）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-6" target="Fln8TkFOrGTAWY18ObZh-4">
           <mxGeometry x="-0.0244" width="80" relative="1" as="geometry">
-            <mxPoint x="430" y="370" as="sourcePoint" />
-            <mxPoint x="510" y="370" as="targetPoint" />
+            <mxPoint x="372" y="370" as="sourcePoint" />
+            <mxPoint x="452" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="570" y="240" />
+              <mxPoint x="512" y="240" />
             </Array>
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-14" value="访问后端，进入拦截器" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0.5;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="Fln8TkFOrGTAWY18ObZh-11" parent="1" source="Fln8TkFOrGTAWY18ObZh-4">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-14" value="访问后端，进入拦截器" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="Fln8TkFOrGTAWY18ObZh-11" parent="1" source="Fln8TkFOrGTAWY18ObZh-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="225" y="330" as="sourcePoint" />
-            <mxPoint x="285" y="330" as="targetPoint" />
+            <mxPoint x="167" y="330" as="sourcePoint" />
+            <mxPoint x="227" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="202" y="330" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-19" value="token+source访问soa" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-11">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-19" value="token+source访问soa" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="Fln8TkFOrGTAWY18ObZh-20" parent="1" source="Fln8TkFOrGTAWY18ObZh-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="350" as="sourcePoint" />
-            <mxPoint x="460" y="350" as="targetPoint" />
+            <mxPoint x="367" y="350" as="sourcePoint" />
+            <mxPoint x="402" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-20" target="Fln8TkFOrGTAWY18ObZh-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-24" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;source是全渠道，&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;调用全渠道解析&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="Fln8TkFOrGTAWY18ObZh-23" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602" y="350" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-22" value="source是全渠道，&lt;br&gt;调用全渠道解析" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="526" y="318" width="110" height="30" as="geometry" />
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-25" value="认证结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="Fln8TkFOrGTAWY18ObZh-23" parent="1" target="Fln8TkFOrGTAWY18ObZh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="687" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-30" value="包装认证结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242" y="480" as="targetPoint" />
+            <mxPoint x="427.5" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-33" value="门店后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="150" width="100" height="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
