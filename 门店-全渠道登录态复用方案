@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:41:04.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MXoHnJ_Lgdzc9TsqpAkL" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T08:42:45.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="9Lj0BQAkg6Pb5nor3qya" version="17.4.6" type="github">
   <diagram id="dwGGe7_HKTjkTB9sFeia" name="第 1 页">
     <mxGraphModel dx="1554" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-11" value="拦截器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-11" value="拦截器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="182" y="150" width="118" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-15" value="前端能否基于嵌入页面&lt;br style=&quot;font-size: 14px;&quot;&gt;携带来源标识？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-11">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-15" value="前端能否基于嵌入页面&lt;br style=&quot;font-size: 14px;&quot;&gt;携带来源标识？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-11" vertex="1">
           <mxGeometry x="-106" y="178" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-34" value="通过？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-11">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-34" value="通过？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-11" vertex="1">
           <mxGeometry x="31.5" y="360" width="55" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-35" value="通过，进入后端" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="Fln8TkFOrGTAWY18ObZh-11">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-35" value="通过，进入后端" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-11" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="88" y="384" as="sourcePoint" />
             <mxPoint x="231.5" y="384" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-4" value="门店前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-4" value="门店前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="22" y="150" width="110" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-4">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-4" vertex="1">
           <mxGeometry x="48" y="134" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-10" value="写入cookie&lt;br style=&quot;font-size: 14px;&quot;&gt;xxx-token+来源标识" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" target="Fln8TkFOrGTAWY18ObZh-9" parent="Fln8TkFOrGTAWY18ObZh-4">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-10" value="写入cookie&lt;br style=&quot;font-size: 14px;&quot;&gt;xxx-token+来源标识" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-4" target="Fln8TkFOrGTAWY18ObZh-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="58" y="114" as="sourcePoint" />
             <Array as="points">
@@ -33,22 +33,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-36" value="失败，跳登录态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="Fln8TkFOrGTAWY18ObZh-4" target="Fln8TkFOrGTAWY18ObZh-4">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-36" value="失败，跳登录态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-4" target="Fln8TkFOrGTAWY18ObZh-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="188" y="384" as="sourcePoint" />
             <mxPoint x="108" y="384" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-5" value="SOA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-5" value="SOA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="522" y="150" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-20" value="source判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-20" value="source判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-5" vertex="1">
           <mxGeometry x="22.5" y="174" width="55" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-5" vertex="1">
           <mxGeometry x="44" y="283" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-29" value="判断是否自动映射JNOS账号&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 是则调用JNOS接口创建&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 否则直接返回" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" target="Fln8TkFOrGTAWY18ObZh-28" parent="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-29" value="判断是否自动映射JNOS账号&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 是则调用JNOS接口创建&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 否则直接返回" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-5" target="Fln8TkFOrGTAWY18ObZh-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="49" y="263" as="sourcePoint" />
             <Array as="points">
@@ -56,13 +56,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-39" value="source判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-39" value="source判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-5" vertex="1">
           <mxGeometry x="21.5" y="450" width="55" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-5" vertex="1">
           <mxGeometry x="44.5" y="550" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-44" value="字段转换" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" edge="1" target="Fln8TkFOrGTAWY18ObZh-43" parent="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-44" value="字段转换" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-5" target="Fln8TkFOrGTAWY18ObZh-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="49.5" y="530" as="sourcePoint" />
             <Array as="points">
@@ -70,16 +70,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-6" value="全渠道" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-6" value="全渠道" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="712" y="150" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-6">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-6" vertex="1">
           <mxGeometry x="45" y="200" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-6">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-6" vertex="1">
           <mxGeometry x="45" y="475" width="10" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-7" value="全渠道打开门店页面（域名不一致，参数上携带登录态）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-6" target="Fln8TkFOrGTAWY18ObZh-4">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-7" value="全渠道打开门店页面（域名不一致，参数上携带登录态）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-6" target="Fln8TkFOrGTAWY18ObZh-4" edge="1">
           <mxGeometry x="-0.0244" width="80" relative="1" as="geometry">
             <mxPoint x="372" y="370" as="sourcePoint" />
             <mxPoint x="452" y="370" as="targetPoint" />
@@ -89,7 +89,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-14" value="访问后端，进入拦截器" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;fontSize=14;" edge="1" target="Fln8TkFOrGTAWY18ObZh-11" parent="1" source="Fln8TkFOrGTAWY18ObZh-4">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-14" value="访问后端，进入拦截器" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-4" target="Fln8TkFOrGTAWY18ObZh-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="167" y="330" as="sourcePoint" />
             <mxPoint x="227" y="330" as="targetPoint" />
@@ -98,35 +98,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-19" value="token+source访问soa" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" target="Fln8TkFOrGTAWY18ObZh-20" parent="1" source="Fln8TkFOrGTAWY18ObZh-11">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-19" value="token+source访问soa" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-11" target="Fln8TkFOrGTAWY18ObZh-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="367" y="350" as="sourcePoint" />
             <mxPoint x="402" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-24" value="&lt;span style=&quot;font-size: 14px; background-color: rgb(248, 249, 250);&quot;&gt;source是全渠道，&lt;/span&gt;&lt;br style=&quot;font-size: 14px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(248, 249, 250);&quot;&gt;调用全渠道解析&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=14;" edge="1" target="Fln8TkFOrGTAWY18ObZh-23" parent="1">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-24" value="&lt;span style=&quot;font-size: 14px; background-color: rgb(248, 249, 250);&quot;&gt;source是全渠道，&lt;/span&gt;&lt;br style=&quot;font-size: 14px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(248, 249, 250);&quot;&gt;调用全渠道解析&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=14;" parent="1" target="Fln8TkFOrGTAWY18ObZh-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="602" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-25" value="认证结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=14;" edge="1" source="Fln8TkFOrGTAWY18ObZh-23" parent="1" target="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-25" value="认证结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-23" target="Fln8TkFOrGTAWY18ObZh-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="687" y="416" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-30" value="包装认证结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-30" value="包装认证结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="242" y="480" as="targetPoint" />
             <mxPoint x="427.5" y="480" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-33" value="门店后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-33" value="门店后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="364" y="150" width="130" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-38" value="需要查询用户/租户信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="Fln8TkFOrGTAWY18ObZh-33">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-38" value="需要查询用户/租户信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="Fln8TkFOrGTAWY18ObZh-33" vertex="1">
           <mxGeometry x="-30" y="400" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-37" value="调用SOA统一接口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-33" target="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-37" value="调用SOA统一接口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-33" target="Fln8TkFOrGTAWY18ObZh-5" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="430" y="590" as="sourcePoint" />
             <mxPoint x="500" y="590" as="targetPoint" />
@@ -135,17 +135,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-41" value="source是全渠道&lt;br style=&quot;font-size: 14px;&quot;&gt;调用全渠道接口" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" edge="1" target="Fln8TkFOrGTAWY18ObZh-40" parent="1" source="Fln8TkFOrGTAWY18ObZh-39">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-41" value="source是全渠道&lt;br style=&quot;font-size: 14px;&quot;&gt;调用全渠道接口" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-39" target="Fln8TkFOrGTAWY18ObZh-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="598.5" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-42" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=14;" edge="1" source="Fln8TkFOrGTAWY18ObZh-40" parent="1" target="Fln8TkFOrGTAWY18ObZh-5">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-42" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-40" target="Fln8TkFOrGTAWY18ObZh-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="687" y="701" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-45" value="返回统一封装结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" edge="1" parent="1" source="Fln8TkFOrGTAWY18ObZh-5" target="Fln8TkFOrGTAWY18ObZh-33">
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-45" value="返回统一封装结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=14;" parent="1" source="Fln8TkFOrGTAWY18ObZh-5" target="Fln8TkFOrGTAWY18ObZh-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="740" as="sourcePoint" />
             <mxPoint x="480" y="740" as="targetPoint" />
@@ -154,8 +154,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fln8TkFOrGTAWY18ObZh-46" value="确认项&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 嵌入全渠道的页面，前端能否在header中携带标识？&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 如果没法携带标识，cookie解析顺序？多cookie登录态情况&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 全渠道的账号是否需要在jnos做映射？只有账号租户，且账号租户关系维护在全渠道，没有其他场景&lt;br style=&quot;font-size: 14px;&quot;&gt;（如果需要用权限，则必须在JNOS侧有映射）&lt;br style=&quot;font-size: 14px;&quot;&gt;4. 如果不需要映射，门店如何保持数据隔离？如果直接用全渠道的账号名+租户id，账号名或租户id可能重复&lt;br style=&quot;font-size: 14px;&quot;&gt;5. 如果需要映射，映射时机是什么时候？初始全量同步，还是解析登录态时查询/添加？后续账号租户数据变更怎么同步？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="34" y="865" width="760" height="120" as="geometry" />
+        <mxCell id="Fln8TkFOrGTAWY18ObZh-46" value="确认项&lt;br style=&quot;font-size: 14px&quot;&gt;1. 嵌入全渠道的页面，前端在header中携带标识，标识名称有JNOS侧确定&lt;br style=&quot;font-size: 14px&quot;&gt;2. 登录态保持和全渠道一致，同一个cookie名或header名&lt;br style=&quot;font-size: 14px&quot;&gt;3. 全渠道的账号暂不与JNOS账号映射，门店后端统一访问SOA层。SOA层根据source调用不同业务方解析登录态、&lt;br&gt;查询用户信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="34" y="880" width="730" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
